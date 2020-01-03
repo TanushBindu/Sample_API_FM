@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2231" started-at="2020-01-03T11:08:31Z" finished-at="2020-01-03T11:08:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2231" started-at="2020-01-03T11:08:31Z" finished-at="2020-01-03T11:08:33Z">
+      <class name="Get_test_Case.List_User">
+        <test-method status="PASS" signature="List_of_user()[pri:0, instance:Get_test_Case.List_User@26be92ad]" name="List_of_user" duration-ms="2181" started-at="2020-01-03T16:38:31Z" finished-at="2020-01-03T16:38:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- List_of_user -->
+        <test-method status="PASS" signature="status_code()[pri:0, instance:Get_test_Case.List_User@26be92ad]" name="status_code" duration-ms="3" started-at="2020-01-03T16:38:33Z" finished-at="2020-01-03T16:38:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- status_code -->
+        <test-method status="PASS" signature="status_line()[pri:0, instance:Get_test_Case.List_User@26be92ad]" name="status_line" duration-ms="2" started-at="2020-01-03T16:38:33Z" finished-at="2020-01-03T16:38:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- status_line -->
+        <test-method status="PASS" signature="set_up()[pri:0, instance:Get_test_Case.List_User@26be92ad]" name="set_up" duration-ms="1" started-at="2020-01-03T16:38:33Z" finished-at="2020-01-03T16:38:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_up -->
+      </class> <!-- Get_test_Case.List_User -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

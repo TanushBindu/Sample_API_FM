@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Utilites.ExtentReporterNG"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="Get_test_Case.Single_User">
+        <methods>
+          <include name="status_line"/>
+          <include name="List_of_user"/>
+          <include name="status_code"/>
+        </methods>
+      </class> <!-- Get_test_Case.Single_User -->
+      <class name="Get_test_Case.List_User">
+        <methods>
+          <include name="status_code"/>
+          <include name="status_line"/>
+          <include name="List_of_user"/>
+        </methods>
+      </class> <!-- Get_test_Case.List_User -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
